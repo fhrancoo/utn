@@ -19,6 +19,8 @@ selector {
 - **Propiedad**: Es el aspecto que queremos cambiar (como el color, el tamaño de la fuente, el margen, etc.).
 - **Valor**: Es el valor que le damos a la propiedad (como un color, un número o una medida).
 
+[NOTE: CSS es un lenguaje de programación que se utiliza para definir la apariencia de los elementos HTML en la página web. CSS se utiliza para aplicar estilos a los elementos HTML, como el color, el tamaño de fuente, la posición y otros atributos.]
+
 ### Ejemplo básico de CSS
 
 ```css
@@ -135,3 +137,20 @@ Este código crea un `div` con un margen de 20px, un borde de 5px de grosor, un 
 ### Conclusión
 
 CSS es la herramienta que te permite darle estilo a tus páginas web. Con CSS puedes cambiar colores, tamaños, posiciones y más, permitiéndote crear diseños atractivos y funcionales. A medida que avances, aprenderás técnicas más avanzadas como **Flexbox** y **Grid Layout** para crear diseños responsivos que se adapten a diferentes tamaños de pantalla.
+
+
+## Recursos adicionales
+
+- [Documentación de CSS MDN](https://developer.mozilla.org/es/docs/Web/CSS)
+- [Tutoriales de CSS en W3Schools](https://www.w3schools.com/css/default.asp)
+- [Wikipedia: CSS](https://es.wikipedia.org/wiki/CSS)
+- [CSS Animations](https://css-tricks.com/almanac/properties/a/animation/)
+
+
+
+- [CSS Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+    - [CSS Flexbox Generator](https://cssflex-generator.netlify.app/)
+    - [CSS game for learning flexbox](https://flexboxfroggy.com/#es)
+- [CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+    - [CSS Grid Generator](https://cssgrid-generator.netlify.app/)
+    - [CSS game for learning grid](https://cssgridgarden.com/#es)

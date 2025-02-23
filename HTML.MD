@@ -115,3 +115,9 @@ HTML (Hypertext Markup Language) es el lenguaje fundamental para crear páginas 
 HTML es la columna vertebral de cualquier página web. Las etiquetas que hemos cubierto son solo una introducción. A medida que avances, aprenderás a usar atributos más específicos, así como cómo integrar HTML con CSS y JavaScript para crear páginas más dinámicas e interactivas.
 
 ---
+
+## Recursos adicionales
+
+- [Documentación de JavaScript MDN](https://developer.mozilla.org/es/docs/Web/HTML)
+- [Tutoriales de HTML en W3Schools](https://www.w3schools.com/html/)
+- [Wikipedia: HTML](https://es.wikipedia.org/wiki/HTML)

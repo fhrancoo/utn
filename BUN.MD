@@ -86,3 +86,8 @@ Esto ejecutará **Prettier** directamente sin tener que agregarlo a los scripts 
 - **Yarn** tiene `yarn dlx` para un propósito similar.
 
 En resumen, **`bunx`** te permite ejecutar cualquier binario dentro de tu proyecto sin instalar nada globalmente ni configurar scripts adicionales. Es un atajo útil para hacer que tu flujo de trabajo sea más eficiente.
+
+
+## Recursos adicionales
+- [Sitio web oficial](https://bun.sh/)
+- [Documentación de Bun](https://bun.sh/docs)

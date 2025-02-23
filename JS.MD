@@ -213,5 +213,4 @@ JavaScript es un lenguaje muy poderoso que te permite crear experiencias interac
 
 - [Documentación de JavaScript MDN](https://developer.mozilla.org/es/docs/Web/JavaScript)
 - [Tutoriales de JavaScript en W3Schools](https://www.w3schools.com/js/)
-
 - [Curso de JavaScript gratis](https://www.aprendejavascript.dev/)
