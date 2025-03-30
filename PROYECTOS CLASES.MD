@@ -1,7 +1,8 @@
 # PROYECTOS CLASES
 
-###BACK
-https://github.com/fhrancoo/proyect1-back
+---
 
-###FRONT
-https://github.com/fhrancoo/proyect1
+### LINKS:
+
+- [BACKEND](https://github.com/fhrancoo/proyect1-back)
+- [FRONTEND](https://github.com/fhrancoo/proyect1)
