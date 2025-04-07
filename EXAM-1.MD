@@ -17,7 +17,7 @@ Crear una aplicación web **Fullstack** que permita realizar operaciones **CRUD*
 2. Implementar un CRUD completo sobre un recurso llamado `Producto`.
 3. Cada `Producto` debe tener la siguiente estructura:
 
-```ts
+```typescript
 {
   id: number;
   nombre: string;
