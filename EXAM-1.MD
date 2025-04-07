@@ -32,7 +32,7 @@ Crear una aplicación web **Fullstack** que permita realizar operaciones **CRUD*
 - `GET /productos` – Obtener todos los productos.
 - `GET /productos/:id` – Obtener un producto por ID.
 - `POST /productos` – Crear un nuevo producto.
-- `PUT /productos/:id` – Actualizar un producto.
+- `PATCH /productos/:id` – Actualizar un producto.
 - `DELETE /productos/:id` – Eliminar un producto.
 
 5. Usar un array en memoria como base de datos temporal:
