@@ -65,7 +65,7 @@ const productos = [
 ### 📃 Documentacion (Postman)
 
 - Subir la coleccion a github (usar mismo repo).
-- Documentas las 6 request (TEST, getOne, getAll, create, update, delete)
+- Documentar las 6 request ej.: (TEST, getOne, getAll, create, update, delete)
 
 ## 🎯 Entrega
 
