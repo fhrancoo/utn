@@ -1,0 +1,11 @@
+
+
+DATABASE_URL="postgresql://postgres:TUCONTRASEÑA@localhost:5432/NOMBREDELABASEDEDATOS"
+
+
+prisma init //integra prisma al proyecto
+prisma generate //genera el tipado
+prisma migrate dev --name "NOMBREDELAMIGRACION" //genera una migracion
+prisma migrate dev //ejecuta migraciones
+
+prisma migrate deploy //ejecuta migraciones en produccion
