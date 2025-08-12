@@ -1,0 +1,16 @@
+services:
+  app:
+    container_name: db
+    image: image-db
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./data:/app/data/
+    networks:
+      - app-network
+
+networks:
+  app-network:
