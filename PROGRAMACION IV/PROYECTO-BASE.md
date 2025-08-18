@@ -8,4 +8,4 @@
  - [IR AL REPOSITORIO](https://github.com/fhrancoo/base-front-utn)
 
 ### DATABASE
- - [IR AL REPOSITORIO](https://github.com/fhrancoo/base-db-utn)
+ - [IR AL REPOSITORIO](https://github.com/fhrancoo/postgres-utn)
