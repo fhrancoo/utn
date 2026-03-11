@@ -49,3 +49,7 @@
 | `git reset [archivo]` | Restablece un archivo del área de preparación. | `--hard` (restablece todos los cambios en el área de trabajo y el área de preparación) |  
 | `git revert [commit]` | Crea un commit que revierte los cambios de un commit anterior. | *(No tiene flags importantes)* |  
 | `git clean` | Elimina archivos no rastreados. | `-f` (forzar la eliminación), `-d` (eliminar directorios no rastreados) |  
+
+## Referencias
+
+Más información en [Hoja de trucos](https://git-scm.com/cheat-sheet).
