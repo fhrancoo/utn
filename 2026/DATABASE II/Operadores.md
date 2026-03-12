@@ -94,42 +94,12 @@ SELECT * FROM usuarios WHERE email IS NOT NULL;
 
 ---
 
-## 6. Agrupamiento y Filtrado de Grupos (GROUP BY y HAVING)
+## Resumen de Operadores
 
-- **GROUP BY**: Agrupa filas que tienen los mismos valores en columnas específicas.
-- **HAVING**: Es como el `WHERE`, pero se aplica a los grupos generados por `GROUP BY`.
-
-**Ejemplo:**
-```sql
--- Contar cuántos usuarios hay por cada ciudad
-SELECT ciudad, COUNT(*) as total_usuarios
-FROM usuarios
-GROUP BY ciudad;
-
--- Mostrar ciudades con más de 10 usuarios
-SELECT ciudad, COUNT(*) as total_usuarios
-FROM usuarios
-GROUP BY ciudad
-HAVING COUNT(*) > 10;
-```
-
----
-
-## 7. Ordenamiento y Límites (ORDER BY y LIMIT)
-
-- **ORDER BY**: Ordena los resultados (`ASC` para ascendente, `DESC` para descendente).
-- **LIMIT**: Limita la cantidad de filas devueltas.
-- **OFFSET**: Salta una cantidad de filas (útil para paginación).
-
-**Ejemplo:**
-```sql
--- Los 5 productos más caros
-SELECT * FROM productos 
-ORDER BY precio DESC 
-LIMIT 5;
-
--- Paginación: saltar los primeros 10 y mostrar los siguientes 10
-SELECT * FROM productos 
-ORDER BY id 
-LIMIT 10 OFFSET 10;
-```
+| Categoría | Operadores |
+| :--- | :--- |
+| **Comparación** | `=`, `<>`, `!=`, `<`, `>`, `<=`, `>=` |
+| **Lógicos** | `AND`, `OR`, `NOT` |
+| **Patrón** | `LIKE`, `ILIKE`, `%`, `_` |
+| **Rango/Lista** | `BETWEEN`, `IN` |
+| **Nulos** | `IS NULL`, `IS NOT NULL` |

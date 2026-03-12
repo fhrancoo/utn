@@ -2,7 +2,7 @@
 
 El **Lenguaje de Manipulación de Datos (DML - Data Manipulation Language)** es una parte de SQL que se utiliza para gestionar y manipular los datos dentro de las tablas de una base de datos. A diferencia del DDL (Data Definition Language), que se ocupa de la estructura, el DML se centra en el contenido.
 
-En PostgreSQL, los comandos DML principales son `INSERT`, `UPDATE`, `DELETE` y, aunque técnicamente es parte del DQL (Data Query Language), frecuentemente se incluye `SELECT` en este contexto.
+En PostgreSQL, los comandos DML principales son `INSERT`, `UPDATE` y `DELETE`. Para la recuperación de datos (lectura), consulta el archivo especializado en [DQL.md](DQL.md).
 
 ---
 
@@ -92,30 +92,6 @@ WHERE fecha_expiracion < NOW();
 
 ---
 
-## 4. SELECT (Consultar datos)
-Aunque a veces se clasifica por separado, es fundamental para leer los datos.
-
-### Sintaxis básica
-```sql
-SELECT columna1, columna2 FROM nombre_tabla WHERE condicion;
-```
-
-### Ejemplos
-**Consultar todo:**
-```sql
-SELECT * FROM usuarios;
-```
-
-**Filtrar y ordenar:**
-```sql
-SELECT nombre, email 
-FROM usuarios 
-WHERE edad > 18 
-ORDER BY nombre ASC;
-```
-
----
-
 ## Resumen de Comandos DML
 
 | Comando | Acción |
@@ -123,4 +99,4 @@ ORDER BY nombre ASC;
 | `INSERT` | Crea nuevos registros. |
 | `UPDATE` | Modifica registros existentes. |
 | `DELETE` | Elimina registros existentes. |
-| `SELECT` | Recupera/Lee registros. |
+

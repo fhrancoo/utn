@@ -81,14 +81,12 @@ EXECUTE FUNCTION log_cambio_precio();
 
 ---
 
-## 4. Estructuras de Control Comunes
+## 4. Estructuras de Control y Lógica (Separado)
 
-- `IF ... THEN ... ELSE ... END IF;`
-- `CASE ... WHEN ... THEN ... ELSE ... END CASE;`
-- `LOOP ... EXIT WHEN ... END LOOP;`
-- `FOR i IN 1..10 LOOP ... END LOOP;`
-- `RAISE NOTICE 'Mensaje informativo';` -- Para imprimir en consola
-- `RAISE EXCEPTION 'Error crítico';` -- Para detener la ejecución con un error
+Para una explicación detallada sobre cómo manejar el flujo de ejecución (IF, CASE, Bucles, Mensajes), consulta los siguientes archivos:
+
+- [Condicionales.md](Condicionales.md)
+- [Bucles-Control.md](Bucles-Control.md)
 
 ---
 
