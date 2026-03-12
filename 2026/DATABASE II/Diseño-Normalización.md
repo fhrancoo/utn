@@ -220,18 +220,3 @@ Un buen diseño de base de datos permite:
 * Mejorar el rendimiento de consultas
 
 Diseñar correctamente una base de datos es una de las tareas más importantes en el desarrollo de sistemas.
-
----
-
-# 7. Ejercicio
-
-Diseñar el modelo de base de datos para un sistema de fútbol.
-
-Posibles tablas:
-
-* equipos
-* jugadores
-* partidos
-* goles
-
-Intentar organizar el modelo aplicando **hasta la tercera forma normal (3NF)**.
