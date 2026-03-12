@@ -28,7 +28,7 @@ Si tienes varias consultas en la misma pestaña, puedes **seleccionar con el rat
 
 - **Data Output**: Muestra las filas devueltas por un `SELECT`. Puedes exportar estos datos a CSV o JSON directamente desde el icono de descarga.
 - **Messages**: Aquí verás si la consulta fue exitosa, cuántas filas afectó (`INSERT`, `UPDATE`, `DELETE`) y cuánto tiempo tardó.
-- **Explain**: Si usas `F7`, aquí verás el gráfico del plan de ejecución (muy útil para el archivo de [Indices.md](file:///c%3A/Users/Usuario/Documents/Repos/utn/2026/DATABASE%20II/Indices.md)).
+- **Explain**: Si usas `F7`, aquí verás el gráfico del plan de ejecución.
 
 ---
 

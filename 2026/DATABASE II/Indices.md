@@ -58,6 +58,25 @@ SELECT * FROM pedidos
 WHERE monto > 1000;
 ```
 
+### Métodos de Acceso (¿Cómo encuentra los datos?)
+Cuando ejecutas `EXPLAIN`, PostgreSQL te dirá qué "método" eligió el optimizador. Estos son los más comunes:
+
+1. **Sequential Scan (Seq Scan)**:
+   - **Qué es**: Recorre todas las filas de la tabla una por una.
+   - **Cuándo ocurre**: Si no hay un índice, si la tabla es muy pequeña, o si la consulta pide un porcentaje muy alto de los datos de la tabla (más del 20-30%).
+
+2. **Index Scan**:
+   - **Qué es**: Busca primero en el índice para obtener la ubicación física de las filas y luego va a la tabla a buscar el resto de los datos.
+   - **Cuándo ocurre**: Cuando filtras por una columna indexada y la tabla es lo suficientemente grande para que no convenga el Seq Scan.
+
+3. **Index Only Scan**:
+   - **Qué es**: El método más rápido. Obtiene todos los datos que necesita **directamente del índice**, sin tener que ir a la tabla física.
+   - **Cuándo ocurre**: Cuando todas las columnas pedidas en el `SELECT` están incluidas en el índice.
+
+4. **Bitmap Index Scan**:
+   - **Qué es**: Crea un "mapa de bits" en memoria con las posiciones de las filas que coinciden en el índice. Es una técnica intermedia muy eficiente para manejar muchas filas.
+   - **Cuándo ocurre**: Cuando se combinan varios índices o cuando hay que leer muchas filas dispersas por la tabla.
+
 ---
 
 ## 5. Buenas Prácticas
