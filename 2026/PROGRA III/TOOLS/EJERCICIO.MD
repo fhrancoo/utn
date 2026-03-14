@@ -10,9 +10,9 @@
 
 ### Mis Datos
 
-*   **Nombre:** *Tu nombre completo*
-*   **Curso:** *Tu curso*
-*   **Comida Favorita:** ~~La que no engorda~~ *Tu comida favorita*
+* **Nombre:** *Tu nombre completo*
+* **Curso:** *Tu curso*
+* **Comida Favorita:** ~~La que no engorda~~ *Tu comida favorita*
 
 ### Biografía
 
@@ -23,9 +23,10 @@
 ## Lenguajes de Programación
 
 Mis lenguajes de programación favoritos son:
-1.  Primer lenguaje
-2.  Segundo lenguaje
-3.  Tercer lenguaje
+
+1. Primer lenguaje
+2. Segundo lenguaje
+3. Tercer lenguaje
 
 A continuación, un ejemplo de cómo imprimir "Hola Mundo" en TypeScript:
 
@@ -57,6 +58,6 @@ Para más información, puedes visitar la [guía oficial de Markdown](https://ww
 
 ## Lista de Tareas para Hoy
 
-- [x] Completar el ejercicio de Markdown.
-- [ ] Estudiar para el próximo examen.
-- [ ] Tomar un descanso.
+* [x] Completar el ejercicio de Markdown.
+* [ ] Estudiar para el próximo examen.
+* [ ] Tomar un descanso.
